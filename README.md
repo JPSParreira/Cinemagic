@@ -1,5 +1,5 @@
 # CineMagic 
-*Internet Applications Project*
+#### Laravel web application for cinema management
 
 ---
 
@@ -12,31 +12,4 @@
 > - [Node.js 20.13.1 Binaries (to put inside laravel/bin/nodejs/) ](https://nodejs.org/en/download/prebuilt-binaries)
 > - [Composer 2.7.6](https://getcomposer.org/download/)
 
-### .env database configuration
-~~~
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=bd_cinema #nome da bd que estao a usar localmente
-DB_USERNAME=root
-DB_PASSWORD=root
-~~~
-
-### PDF Creator
-~~~
-composer require spatie/laravel-pdf
-~~~
-[Documentation](https://spatie.be/docs/laravel-pdf/v1/introduction)
-
-### QR Code
-~~~
-composer require simplesoftwareio/simple-qrcode
-~~~
-[Documentation](https://github.com/SimpleSoftwareIO/simple-qrcode)
-
-### Laravel Charts
-~~~
-composer require laraveldaily/laravel-charts
-~~~
-[Documentation](https://charts.erik.cat/)
 
